@@ -1,0 +1,641 @@
+[
+    {
+        "id":0,
+        "name":"Roshan Joshi",
+        "place":"JIIT",
+        "coords":{
+            "lat":28.694583,
+            "lng":77.364065
+        },
+        "temp":[10,12,4,5,6,3],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "message":"jaypee",
+        "user":"chetan"
+    },
+    {
+        "id":1,
+        "name":" Rohan Gupta",
+        "place":"ghar",
+        "coords":{
+            "lat":28.599,
+            "lng":77.446},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":2,
+        "name":" Akansha Mittal",
+        "place":"Choti Milak",
+        "coords":{
+            "lat":28.386,
+            "lng":77.537},
+        "message":"home",
+        "temp":[10,12,4,5,6,12],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "user":"jain" 
+    },
+    {
+        "id":3,
+        "name":"Apoorv Tiwari",
+        "place":"Sector 4",
+        "coords":{
+            "lat":28.398,
+            "lng":77.557},
+        "message":"home",
+        "temp":[10,12,4,5,6,2],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "user":"jain" 
+    },
+    {
+        "id":4,
+        "name":"pulkit taneja",
+        "place":"Sector 5",
+        "coords":{
+            "lat":28.417,
+            "lng":77.570},
+        "message":"home",
+        "temp":[10,12,4,5,6,3],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "user":"jain" 
+    },
+    {
+        "id":5,
+        "name":"Baneet Singh",
+        "place":"BSNL Society",
+        "coords":{
+            "lat":28.448,
+            "lng":77.558},
+        "message":"home",
+        "temp":[10,12,4,5,6,9],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "user":"jain" 
+    },
+    {
+        "id":6,
+        "name":"S .K .Jain",
+        "place":"Sikandarbad",
+        "coords":{
+            "lat":28.461,
+            "lng":77.599},
+            "temp":[10,12,4,5,6,8],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":7,
+        "name":"Pratibha Jain",
+        "place":"Greater Noida Road 3",
+        "coords":{
+            "lat":28.424,
+            "lng":77.555},
+            "temp":[10,12,4,5,6,7],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":8,
+        "name":"Palash Rai",
+        "place":"Night Safari",
+        "coords":{
+            "lat":28.404,
+            "lng":77.526},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":9,
+        "name":"Ayush Jain",
+        "place":"G buddha University",
+        "coords":{
+            "lat":28.417,
+            "lng":77.521},
+            "temp":[10,12,4,5,6,4],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":10,
+        "name":" Ravi Mehta",
+        "place":"Alistonia Estate",
+        "coords":{
+            "lat":28.438,
+            "lng":77.514},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":11,
+        "name":"Ashish Garg",
+        "place":"Jaipuria G.N ",
+        "coords":{
+            "lat":28.543,
+            "lng":77.433},
+            "temp":[10,12,4,5,6,8],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":12,
+        "name":"Akansha Jain",
+        "place":"Block C Sector XUI",
+        "coords":{
+            "lat":28.467,
+            "lng":77.569},
+            "temp":[10,12,4,5,6,17],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":13,
+        "name":"Akshita Goel",
+        "place":"Megapolis",
+        "coords":{
+            "lat":28.486,
+            "lng":77.595},
+            "temp":[10,12,4,5,6,4],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":14,
+        "name":"Udbhav Jha",
+        "place":"Sector MU2",
+        "coords":{
+            "lat":28.478,
+            "lng":77.578},
+            "temp":[10,12,4,5,6,18],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":15,
+        "name":" Aman Parmar",
+        "place":"SamaudinPur",
+        "coords":{
+            "lat":28.479,
+            "lng":77.599},
+            "temp":[10,12,4,5,6,10],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":16,
+        "name":"Amit Yadav",
+        "place":"Bee Akharbarpur",
+        "coords":{
+            "lat":28.504,
+            "lng":77.591},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":17,
+        "name":"Anshul Jain",
+        "place":"Ekanki Enclave",
+        "coords":{
+            "lat":28.470,
+            "lng":77.548},
+            "temp":[10,12,4,5,6,12],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":18,
+        "name":"Saransh Barua",
+        "place":"Surajpur Flight 4",
+        "coords":{
+            "lat":28.456,
+            "lng":77.525},
+            "temp":[10,12,4,5,6,1],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":19,
+        "name":"Archit gupta",
+        "place":"IFS villas",
+        "coords":{
+            "lat":28.449,
+            "lng":77.507},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":20,
+        "name":"Arjun Dagga",
+        "place":"Sector 18",
+        "coords":{
+            "lat":28.459,
+            "lng":77.483},
+            "temp":[10,12,4,5,6,19],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":21,
+        "name":"Deepanshu Bansal",
+        "place":"Black A sector 18",
+        "coords":{
+            "lat":28.474,
+            "lng":77.470},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":22,
+        "name":"Divyam Ratho",
+        "place":"Sector 145",
+        "coords":{
+            "lat":28.483,
+            "lng":77.460},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":23,
+        "name":"Deepti Singhai",
+        "place":"Dadri Main Road",
+        "coords":{
+            "lat":28.517,
+            "lng":77.484},
+            "temp":[10,12,4,5,6,17],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":24,
+        "name":"Divyanshi Goel",
+        "place":"EcoTech 2",
+        "coords":{
+            "lat":28.495,
+            "lng":77.487},
+            "temp":[10,12,4,5,6,9],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":25,
+        "name":" Faisal Mirza",
+        "place":"ShivrajPur",
+        "coords":{
+            "lat":28.535,
+            "lng":77.519},
+            "temp":[10,12,4,5,6,15],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":26,
+        "name":"Shahrukh Khan",
+        "place":"Sadopur",
+        "coords":{
+            "lat":28.588,
+            "lng":77.513},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":27,
+        "name":"Gaurav Singhai",
+        "place":"Dadri",
+        "coords":{
+            "lat":28.554,
+            "lng":77.570},
+            "temp":[10,12,4,5,6,7],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":28,
+        "name":"Vanshika Gupta",
+        "place":"NH 34 Dardi",
+        "coords":{
+            "lat":28.567,
+            "lng":77.549},
+            "temp":[10,12,4,5,6,10],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":29,
+        "name":"Harry Mcwan",
+        "place":"Aradhya Road",
+        "coords":{
+            "lat":28.594,
+            "lng":77.533},
+            "temp":[10,12,4,5,6,5],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":30,
+        "name":"Jitesh Rowdy",
+        "place":"Tusiana Village",
+        "coords":{
+            "lat":28.537,
+            "lng":77.484},
+            "temp":[10,12,4,5,6,9],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":31,
+        "name":"Isha Jain",
+        "place":"Bishrakh",
+        "coords":{
+            "lat":28.557,
+            "lng":77.441},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":32,
+        "name":"Kapil Rawat",
+        "place":"Kulesara",
+        "coords":{
+            "lat":28.508,
+            "lng":77.429},
+            "temp":[10,12,4,5,6,2],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":33,
+        "name":"anmol Monga",
+        "place":"Sector 104",
+        "coords":{
+            "lat":28.544,
+            "lng":77.376},
+            "temp":[10,12,4,5,6,4],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":34,
+        "name":" Navjeet Singh",
+        "place":"Sector 113",
+        "coords":{
+            "lat":28.565,
+            "lng":77.408},
+            "temp":[10,12,4,5,6,8],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":35,
+        "name":"Saurabh pandey",
+        "place":"Sethi max royal",
+        "coords":{
+            "lat":28.570,
+            "lng":77.382},
+            "temp":[10,12,4,5,6,22],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":36,
+        "name":"Piyush tiwari",
+        "place":"Amrapali Region Valley",
+        "coords":{
+            "lat":28.591,
+            "lng":77.420},
+            "temp":[10,12,4,5,6,4],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":37,
+        "name":"Prabhanshu yadav",
+        "place":"YusufPur",
+        "coords":{
+            "lat":28.611,
+            "lng":77.409},
+            "temp":[10,12,4,5,6,2],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":38,
+        "name":"Prateek Bansal",
+        "place":"Ambedkar City",
+        "coords":{
+            "lat":28.603,
+            "lng":77.467},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":39,
+        "name":"Praveen pandey",
+        "place":"panscheel Green",
+        "coords":{
+            "lat":28.615,
+            "lng":77.458},
+            "temp":[10,12,4,5,6,1],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":40,
+        "name":"Akansha Singh",
+        "place":"Nh 9",
+        "coords":{
+            "lat":28.625,
+            "lng":77.495},
+            "temp":[10,12,4,5,6,12],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":41,
+        "name":"Nandini Goel",
+        "place":"Sector 13",
+        "coords":{
+            "lat":28.641,
+            "lng":77.452},
+            "temp":[10,12,4,5,6,8],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":42,
+        "name":"Sarthak Chopra",
+        "place":"wave CIty",
+        "coords":{
+            "lat":28.634,
+            "lng":77.520},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":43,
+        "name":"Shashank YMioshra",
+        "place":"NH 9 Ghaziabad",
+        "coords":{
+            "lat":28.665,
+            "lng":77.517},
+            "temp":[10,12,4,5,6,9],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":44,
+        "name":"Shivam Kapoor",
+        "place":"Gaur Saundaryam",
+        "coords":{
+            "lat":28.603,
+            "lng":77.437},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":45,
+        "name":"Shreya Jain",
+        "place":"Chotpur Colony",
+        "coords":{
+            "lat":28.626,
+            "lng":77.402},
+            "temp":[10,12,4,5,6,3],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":46,
+        "name":"Siddhant Sunil",
+        "place":"Shramik Kunj",
+        "coords":{
+            "lat":28.609,
+            "lng":77.377},
+            "temp":[10,12,4,5,6,6],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":47,
+        "name":"Aditya Swami",
+        "place":"World Trade Center",
+        "coords":{
+            "lat":28.577,
+            "lng":77.318},
+        "temp":[10,12,4,5,6,10],
+        "hum":[13,24,32,15,8,28],
+        "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    },
+    {
+        "id":48,
+        "name":"Tushar Arora",
+        "place":"Block A 62",
+        "coords":{
+            "lat":28.625,
+            "lng":77.355
+        },
+            "temp":[10,12,4,5,6,20],
+            "hum":[13,24,32,15,8,28],
+            "time":[0,10,20,30,40,50],
+        "message":"home",
+        "user":"jain" 
+    }
+]

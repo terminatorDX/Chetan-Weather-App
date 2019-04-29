@@ -1,0 +1,169 @@
+<html><head>
+        <title>WeatherCheck Welcome</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="homepage.css" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFYX11wfidLEkCXcyXOsJCKytre5c9TFc&libraries=places,visualization&callback=initilize"></script>
+        <script src="homepage.js"></script>
+        <style>
+            * {box-sizing: border-box}
+            
+            /* Set height of body and the document to 100% */
+            body, html {
+                height: 625px;
+                margin: 0;
+                font-family: Arial;
+            }
+            
+            /* Style tab links */
+            .tablink {
+                background-color: #555;
+                color: black;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                font-size: 17px;
+                width: 25%;
+                z-index:-1;
+            }
+            
+            .tablink:hover {
+                background-color: #777;
+            }
+            
+            /* Style the tab content (and add height:100% for full page content) */
+            .tabcontent {
+                width:100%;
+                color: black;
+                display: none;
+                padding: 10px 20px;
+                height: 100%;
+            }
+            
+            #Home {background-color: red;}
+            #Maps {background-color: green;}
+            #Explore {background-color: rgb(44, 44, 65);}
+            #About {background-color: orange;}
+            </style>
+    </head>
+    <body>
+    
+        <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openPage('Maps', this, 'green')">Maps</button>
+        <button class="tablink" onclick="openPage('Explore', this, 'rgb(44, 44, 65)')">Explore</button>
+        <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+        
+        <div id="Home" class="tabcontent">
+            <img id="HomeImg" src="">
+          <div class="left-home" id="left-home"></div>
+          <div class="right-home" id="right-home"></div>
+          <div class="bottom-home" id="bottom-home">
+              <div class="left-bottom-home" id="left-bottom">
+                  <canvas id="myHumChart"></canvas>
+              </div>
+              <div class="right-bottom-home" id="right-bottom">
+                    <canvas id="myChart"></canvas></div>
+          </div>
+        </div>
+        
+        <div id="Maps" class="tabcontent Maps">
+            <div class="maps">
+                <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                <button id="heat" onclick="toggleHeatmap()">Toggle Heatmap</button>
+                <div id='map'></div>
+            </div>
+            <div class="charts">
+                <div class="top-charts">
+                    <canvas id="HumiChart"></canvas>
+                </div>
+                <div class="bottom-charts">
+                    <canvas id="hisChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Explore" class="Explore tabcontent">
+            <img id="ExpImg" src="">
+                <div class="search">
+                        <h1>Weathercheck</h1>
+                        <input type="text" list="datalist" id="input">
+                        <button id="search">Search</button>
+                        <datalist id="datalist"></datalist>
+                </div>
+                <div class="tabs-exp">
+            <div class="first-exp exp" id="first-exp">
+                <img src="" alt="" id="first-exp-img">
+                <h1 id="first-exp-h1">Main</h1>
+            </div>
+            <div class="second-exp exp" id="second-exp">
+                <img src="" alt="" id="second-exp-img">
+                <h1 id="second-exp-h1">Main</h1>
+            </div>
+            <div class="third-exp exp" id="third-exp">
+                <img src="" alt="" id="third-exp-img">
+                <h1 id="third-exp-h1">Main</h1>
+            </div>
+            <div class="fourth-exp exp" id="fourth-exp">
+                <img src="" alt="" id="fourth-exp-img">
+                <h1 id="fourth-exp-h1">Main</h1>
+            </div>
+            <div class="fifth-exp exp" id="fifth-exp">
+                <img src="" alt="" id="fifth-exp-img">
+                <h1 id="fifth-exp-h1">Main</h1>
+            </div>
+            <div class="sixth-exp exp" id="sixth-exp">
+                <img src="" alt="" id="sixth-exp-img">
+                <h1 id="sixth-exp-h1">main</h1>
+            </div>
+        </div>
+        <div class="bottom-exp">
+            <div class="bottom-exp-left">
+                <h1  id="exp-time"></h1><br>
+             <h1 style="font-size:25px" id="exp-place"></h1>
+            </div>
+           <div class="bottom-exp-right">
+            <ul type="none">
+                <li></li>
+                <li id="ul0"></li>
+                <li id="ul1"></li>
+                <li id="ul2"></li>
+                <li id="ul3"></li>
+                <li id="ul4"></li>
+                <li id="ul5"></li>
+                <li id="ul6"></li>
+            </ul>
+           </div>
+        </div>
+        </div>
+        
+        <div id="About" class="tabcontent">
+          <h3>About</h3>
+          <p>Who we are and what we do.</p>
+        </div>
+        
+        <script>
+        function openPage(pageName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        
+        }
+        document.getElementById("defaultOpen").click();
+        </script>
+        <script src="googlemaps.js"></script>
+        <script src="home.js"></script>
+        <!-- <script src="chart.js"></script> -->
+             
+        </body>
+    </html>

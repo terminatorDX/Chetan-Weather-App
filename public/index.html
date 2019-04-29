@@ -1,0 +1,76 @@
+<html><head>
+    <title>WeatherCheck Welcome</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="first.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFYX11wfidLEkCXcyXOsJCKytre5c9TFc&libraries=places&callback=initilize"></script>
+</head>
+<body>
+    <div class='top'>
+        <h1 id="logo">WeatherCheck</h1>
+        <form method="post" action="/login">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" id="submit">
+        </form>
+    </div>
+
+
+    <div class="left">
+        <h1>Recent Logins</h1>
+        <h3>Click your picture to login</h3>
+        <img src="">
+        <h1></h1>
+        <p>Which color would you like the homepage to be??</p>
+        <input type="text" id="inp">
+        <button id="btn">Get</button>
+    </div>
+
+
+    <div class="right">
+        <h1>Create a new account</h1>
+        <h3>It's free and always will be.</h3>
+        <form method="post" action="/signup">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="text" name="fullname" placeholder="Full Name"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <input type="password" name="password" placeholder="New Password"><br>
+        <input type="date" name="bday" id="bday"><br>
+        <!-- <h5>By clicking Sign Up, you agree to our <br><a href="">Terms</a>, 
+        <a href="">Data Policy</a> and <br><a href="">Cookie Policy</a>. You may receive SMS notifications
+         from<br> us and can opt out at any time.</h5><br> -->
+        <input type="text" id="search" name="address" placeholder="address" ><br>
+        <input type="submit" id="signup">
+        </form>
+    </div>   
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script>
+    $(document).ready(function(){
+    google.maps.event.addDomListener(window,'load',initilize);
+    function initilize(){
+        var autocomplete=new google.maps.places.Autocomplete(document.getElementById('search'));
+        google.maps.event.addListener(autocomplete,'place_changed',function(){
+
+            var places=autocomplete.getPlace();
+            var location="Location"+places.formatted_address;
+            var lat=places.geometry.location.lat();
+            var lng=places.geometry.location.lng();
+            console.log(location +"     "+lat+" -------"+lng);
+            send(location,lat,lng)
+        })
+        
+    }
+    function send(location,lat,lng){
+        $.ajax({
+            url:'/location',
+            method:'get',
+            data:{location:location,
+                lat:lat,
+                lng:lng
+            }
+        })
+    }
+})
+</script>
+</html> 
